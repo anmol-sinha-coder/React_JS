@@ -1,1 +1,0 @@
-export const MARK_UPDATE = 'MARK_UPDATE';

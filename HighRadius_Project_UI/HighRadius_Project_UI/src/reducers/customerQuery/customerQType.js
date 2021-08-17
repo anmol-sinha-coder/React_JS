@@ -1,2 +1,0 @@
-export const ADD_CUSTOMER_DATA = "ADD_CUSTOMER_DATA";
-export const CLEAR_ALL = "CLEAR_ALL";
