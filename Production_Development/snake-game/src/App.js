@@ -16,6 +16,7 @@ const App = () => {
   const [apple, setApple] = useState(APPLE_START);
   const [dir, setDir] = useState([0, -1]);
   const [speed, setSpeed] = useState(null);
+  const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
 
   useInterval(() => gameLoop(), speed);
@@ -94,7 +95,7 @@ const App = () => {
         width={`${CANVAS_SIZE[0]}vw`}
         height={`${CANVAS_SIZE[1]}vh`}
       />
-      {gameOver && <div><font color="white"> GAME OVER!</font></div>}
+      {gameOver && <div><font color="white"> GAME OVER!</font></div>}<br/>
       <button onClick={startGame}>Start Game</button>
     </div>
     </center>
