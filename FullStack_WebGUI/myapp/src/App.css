@@ -1,0 +1,56 @@
+.App {
+  background-color: indigo;
+  height: fit-content;
+  width: 100vw;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.App-logo {
+  width: 6rem;
+  animation: logoAnimation 3s infinite linear;
+}
+
+.logo-title {
+  font-size: 2rem;
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  50% {
+    transform: rotate(180deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.counter-section {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.new-button {
+  padding: 0.3rem;
+  margin: 0.5rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  background-color: coral;
+  border-radius: 0.2rem;
+  color: yellow;
+  border: 0px;
+  width: 10rem;
+}
+
+.display-value {
+  font-size: 4rem;
+}

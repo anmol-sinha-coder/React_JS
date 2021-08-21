@@ -1,0 +1,14 @@
+this.setState => useState
+lifecycle methods like componentDidMount, componentDidUpdate, componentWillUnmount => useEffect
+
+// Not Possible
+if (true)
+useState(0);
+
+import React from 'react';
+
+function Hello(props) {
+  useState()
+}
+
+<Hello />
