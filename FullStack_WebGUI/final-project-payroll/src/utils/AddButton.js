@@ -102,7 +102,7 @@ var AddButton = () => {
   };
 
   const handleSubmit = (event) => {
-    console.log(...valueSet);
+    console.log(...valueSet, event.target.value);
     postResults(dataValue1.toString(),dataValue2.toString(),dataValue3.toString(),dataValue4.toString(),dataValue5.toString());
     handleClose();
   };

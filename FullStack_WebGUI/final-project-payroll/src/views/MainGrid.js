@@ -108,7 +108,7 @@ const StyledTableRow = withStyles((theme) => ({
     const [searchValue, setSearchValue] = useState("");
   
     const pageLimit=10;
-    const getSearchResults = (value) => {
+    var getSearchResults = (value) => {
       axios
         .get(`http://localhost:8000/1805553_HRC/SearchData`, {
           params: {
@@ -143,7 +143,7 @@ const StyledTableRow = withStyles((theme) => ({
         }, 3000);
       }
     };
-  
+
     const findIndex = ((val) => {
       for(let i=0;i<dataRows.length;i++)
         if(dataRows[i].invoice_id === val)
@@ -180,7 +180,7 @@ const StyledTableRow = withStyles((theme) => ({
           <PredictButton />
           <ViewButton />
 
-          <AddButton />
+          <AddButton onClick={handleSearchValueChange}/>
           <EditButton />
           <DeleteButton />
           <TextField className={classes.search_bar}

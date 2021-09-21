@@ -6,8 +6,8 @@ import MainGrid from './views/MainGrid';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { ROLL_NUMBER } from './utils/constants';
 
-import logo from './assets/logo.svg';
-import emblem from './assets/Group 20399.svg';
+import logo from './assets/logo.gif';
+import emblem from './assets/reactjs.gif';
 
 /*
 const useStyles = makeStyles((theme) => ({
@@ -60,8 +60,8 @@ const App = () => {
       <div className="App">
         <header className="App-header">
         <p>
-         <img src={emblem} className="App-logo1" alt="emblem" />
-         <img src={logo} className="App-logo2" alt="logo" /> 
+         <img src={emblem} className="App-logo1" alt="emblem"/>
+         <img src={logo} className="App-logo2" alt="logo"/> 
         </p>
         </header>
       </div>
