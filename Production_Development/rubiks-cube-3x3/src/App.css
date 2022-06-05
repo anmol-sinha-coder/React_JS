@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+th {
+  background: url("https://i.pinimg.com/originals/63/86/4a/63864addea82cb1c5be2e19b028eaea9.gif");
+}
+
+.sizer {
+  height:60vh;
+  padding: 0vh 0vw 0.5vh 0vh;
+}
+
+.container1 {
+  font-size: 30px;
+  padding: 1px;
+  margin: 1px;
+  background: url("https://i.stack.imgur.com/poux8.gif");
+}
+.container1:hover {
+  transform: scale(0.8);
+}
+
+.container2 {
+  font-size: 30px;
+  padding: 1.5px;
+  margin: 1px;
+  background: url("https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif");
+}
+.container2:hover {
+  transform: scale(0.8);
+}
+
+.container3 {
+  font-size: 30px;
+  color: white;
+  padding: 1px;
+  margin: 10px;
+  background: url("https://c.tenor.com/q3lrw2Fx92wAAAAC/awesome-background.gif");
+  box-shadow: 5px 10px 16px rgba(0, 0, 0, 0.48),
+    5px 10px 14px rgba(0, 0, 0, 0.96);
+}
+.container3:hover {
+  transform: scale(1.25);
+}
+
+.rubiks_cube {
+ background: url("https://i.pinimg.com/originals/74/43/a3/7443a31b6a19e5630b94a6538ff9bdd1.gif");
+}
+
+#app {
+  height: 98vh;
+  width: 50vw;
+}

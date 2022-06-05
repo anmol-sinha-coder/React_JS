@@ -1,0 +1,49 @@
+[debug] [2021-11-21T17:40:34.774Z] ----------------------------------------------------------------------
+[debug] [2021-11-21T17:40:34.777Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Anmol_Sinha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-21T17:40:34.777Z] CLI Version:   9.23.0
+[debug] [2021-11-21T17:40:34.778Z] Platform:      win32
+[debug] [2021-11-21T17:40:34.778Z] Node Version:  v14.17.5
+[debug] [2021-11-21T17:40:34.784Z] Time:          Sun Nov 21 2021 23:10:34 GMT+0530 (India Standard Time)
+[debug] [2021-11-21T17:40:34.784Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-21T17:40:34.793Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-21T17:40:34.793Z] > authorizing via signed-in user (1805553@kiit.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Anmol_Sinha\Desktop\Final Project\ReactJS\Production_Development\snake-game
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-11-21T17:41:09.405Z] ----------------------------------------------------------------------
+[debug] [2021-11-21T17:41:09.408Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Anmol_Sinha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-21T17:41:09.408Z] CLI Version:   9.23.0
+[debug] [2021-11-21T17:41:09.408Z] Platform:      win32
+[debug] [2021-11-21T17:41:09.409Z] Node Version:  v14.17.5
+[debug] [2021-11-21T17:41:09.409Z] Time:          Sun Nov 21 2021 23:11:09 GMT+0530 (India Standard Time)
+[debug] [2021-11-21T17:41:09.409Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-21T17:41:09.417Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-21T17:41:09.417Z] > authorizing via signed-in user (1805553@kiit.ac.in)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Anmol_Sinha\Desktop\Final Project\ReactJS\Production_Development\snake-game
+
